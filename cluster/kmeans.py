@@ -38,8 +38,6 @@ class Kmeans :
         self.lastClusters = []
         for i in range(len(self.clusters)):
             self.lastClusters.append(self.clusters[i][:])
-        for i in self.clusters:
-            self
         self.clusters = []
         for i in xrange(self.K):
             self.clusters.append([])
